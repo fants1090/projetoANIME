@@ -1,0 +1,30 @@
+/*este *{ só para acetar os valore para não atrapalhar*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/*para colocar imagem de fundo*/
+body {
+  background-image: url("../IMAGENS/fundo5.jpg");
+  background-position: 105% 50%;
+}
+/*este input é para mudar apenas as barras de login e senha para deixar em baixo
+do outro no caso o display os outros não para deixar da forma que gostari
+quadrado redondo etc.*/
+input{
+  display: block;
+  height: 55px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 1px solid black;
+  font-size: 16pt;
+  padding:10px 20px;
+}
+/*div para coloacr um fundo no formulario e o width e margin para centralizar
+no meio da tela*/
+div#body-form{
+  /*background-color:red*/ /*só foi colocado o backgroud para ver onde estava*/
+  width: 420px;
+  margin: 150px auto 0px auto;
+}
