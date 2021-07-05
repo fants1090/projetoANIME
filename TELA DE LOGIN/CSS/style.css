@@ -1,0 +1,101 @@
+/*este *{ só para acetar os valore para não atrapalhar*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/*para colocar imagem de fundo e mudar a possição*/
+body {
+  background-image: url("../IMAGENS/fundo7.jpg");
+  background-position: 99% 25%;
+  color:royalblue;
+  font-family: serif;
+}
+/*este input é para mudar apenas as barras de login e senha para deixar em baixo
+do outro no caso o display os outros não para deixar da forma que gostari
+quadrado redondo o outline é para tirar as bordas qur fica em volta dos input*/
+input{
+  display: block;
+  height: 40px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 01px solid white;
+  font-size: 12pt;
+  padding:5px 10px;
+  background-color: rgba(255,255,255,0.01);
+  color: white;
+  outline: none;
+}
+/*div para coloacr um fundo no formulario e o width e margin para centralizar
+no meio da tela*/
+div#body-form{
+  /*background-color:red*/ 
+  /*só foi colocado o backgroud para ver onde estava*/
+  width: 420px;
+  margin: 150px auto 0px auto;
+}
+
+/*div#body-form-Cad{
+  //este é do formulario Cadastro
+  width: 420px;
+  margin: 80px auto 0px auto;
+}*/
+
+/*div#body-form h1, div#body-form-Cad h1{
+  text-align: center;
+  padding: 20px;
+}*/
+
+div#body-form h1{
+  text-align: center;
+  padding: 20px;
+}
+
+a{
+  /* deixar o ainda não sou otaku de uma cor e aparecer só quando eu passar o muser*/
+  color:royalblue;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+/* acrecentamos um pointer para mudar o curso*/
+input[type=submit]{
+  background-color:#522;
+  border:none;
+  cursor: pointer;
+}
+/*este codigo é para alterar a cor do placerholder para branco pode escolher
+a cor que voce quiser pode retirar este codigo da internet tambem*/
+
+::-webkit-input-placeholder{ /*Webkit brosers */ color: #fff;
+}
+
+:-moz-placeholder{ /*Mozilla Firefox 4 to 18 */ color: #fff; 
+}
+
+::-moz-placeholder{ /*Mozilla Firefox 19+ */ color: #fff;
+}
+
+:-ms-input-placeholder{ /* Internet Explorer 10+ */ color: #fff; 
+}
+
+div#msg-sucesso{
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: rgba(50,205,50,.3);
+  border: 1px solid rgb(34,139,.34);
+
+}
+
+div.msgerro{
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: rgba(250,128,114,.3);
+  border: 1px solid rgb(165,42,42);
+}
